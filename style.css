@@ -1,0 +1,39 @@
+header{
+    padding-top: 20px;
+    height: 30vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 305px;
+    height: 305px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+}
+
+.game-div {
+    background-color: #FFA54F;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    font-size: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
